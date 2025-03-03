@@ -6,50 +6,87 @@
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 header {
-
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
 }
 
 .content-1{
-
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content-2{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards{
-
+    display: flex;
 }
 
 .content-3{
-    
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.italic {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 
 .content-4{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    background-color: #3882f6;
 }
 
 footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+button {
+    background-color: #3882f6;
 }
 
 p {
-
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 h1{
-
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 h2{
-
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 h3{
-
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul {
@@ -58,4 +95,11 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+img {
+    width: 300px;
+    height: auto;
 }
